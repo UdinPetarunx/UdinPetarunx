@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta name="viewport" content="width:device-width, initial-scale:1.0">
+    <meta charset="UTF-8">
+    <title>Project Weabou</title>
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <script src="w3.js"></script>
+</head>
+
+<body>
+
+
+    <div class="w3-container w3-center w3-cyan w3-padding-16">
+        <h1 class="w3-text-white w3-xxxlarge" style="text-shadow: 1px 1px 4px gray;"><b>Welcome To My Website!</b></h1>
+    </div>
+
+    <div class="w3-bar w3-medium w3-blue w3-card-2">
+        <a class="w3-bar-item w3-button w3-padding-16 w3-hover-red" href="index.html">Home</a>
+        <a class="w3-bar-item w3-button w3-padding-16 w3-green w3-hover-yellow" href="contact.html">Kontak</a>
+        <a class="w3-bar-item w3-button w3-padding-16 w3-hover-indigo" href="#">Link</a>
+        <a class="w3-bar-item w3-button w3-padding-16 w3-hover-purple" href="#">Link</a>
+    </div>
+
+    <div class="w3-container w3-margin-top w3-card w3-mobile w3-blue" style="width:70%;margin:auto">
+        <h2 class="w3-left">Kontak Saya!</h2>
+    </div>
+
+    <form class="w3-container w3-card-4 w3-mobile w3-padding w3-margin-bottom" method="get" style="width: 70%;margin:auto" netlify>
+
+        <label for="nama">Nama Lengkap</label>
+        <input class="w3-input w3-border" type="text" id="nama" name="nama" required>
+
+        <label for="email">Email</label>
+        <input class="w3-input w3-border" type="email" id="email" name="email">
+        
+        
+        <select id="subjek" name="subjek" class="w3-select w3-border w3-light-gray w3-margin-top">
+        <option hidden selected>Subjek</option>
+        <option value="komentar">Komentar</option>
+        <option value="saran">Saran</option>
+        <option value="berbincang">Berbincang</option>
+        </select>
+
+        <label for="pesan">Pesan</label>
+        <textarea class="w3-input w3-mobile w3-border" name="pesan" id="pesan" style="resize: none;" required></textarea>
+
+        <div class="w3-container w3-center">
+        <input type="submit" class="w3-button w3-blue w3-margin"  style="margin: auto;" value="Kirim!">
+    </div>
+
+        
+        <div class="container w3-center">
+        <p>Atau hubungi saya di:</p>
+        <a href="https://facebook.com/" target="_blank">
+            <img src="img/icon/fb.png" alt="fb" style="width: 70px;height: 70px;">
+        </a>
+        <a href="https://whatsapp.me/" target="_blank">
+            <img src="img/icon/wa.png" alt="wa" style="width: 70px;height: 70px;">
+        </a>
+        <a href="https://instagram.com/" target="_blank">
+            <img src="img/icon/ig.png" alt="ig" style="width: 70px;height: 70px;">
+        </a>
+        </div>
+
+    </form>
+
+    <div class="w3-container w3-center w3-blue">
+        <h4>&copy; Abdul Aziz 2K21</h4>
+    </div>
+
+</body>
+</html>   
